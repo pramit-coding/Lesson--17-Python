@@ -7,7 +7,7 @@ window.geometry("500x500")
 def random():
     
 
-    passwords = ["apple", "bannana", "kiwi"]
+    passwords = ["rock", "paper", "sciccors"]
     random().print(passwords)
 
 
