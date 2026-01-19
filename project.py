@@ -1,16 +1,12 @@
-from string import capwords
-import tkinter as tk
+from tkinter import *
 
-window = tk.Tk()
+window = Tk()
+
 window.title("Project")
 window.geometry("500x500")
-def random():
+
+words = Label( text = "one_two_three", fg='orange',bg='blue')
+words.pack()
+
     
-
-    passwords = ["rock", "paper", "sciccors"]
-    random().print(passwords)
-
-
-window.text(capwords)
-
 window.mainloop()
